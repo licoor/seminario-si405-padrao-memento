@@ -4,7 +4,7 @@ Este repositorio contem a implementacao pratica para o seminario da disciplina d
 
 ## II. Estrutura do Projeto
 
-* **codigo-antes/**: Contem a situacao-problema inicial desenvolvida por Lili. Demonstra um Editor de Texto que tenta implementar o historico violando o encapsulamento e gerando alto acoplamento.
+* **codigo-antes/**: Contem a situacao-problema inicial desenvolvida por licoor (eu). Demonstra um Editor de Texto que tenta implementar o historico violando o encapsulamento e gerando alto acoplamento.
 * **codigo-depois/**: Espaco reservado para a refatoracao com a aplicacao do padrao Memento (Mel).
 * **documentacao/**: Espaco reservado para os relatorios em PDF e roteiros (Bia e Dezza).
 
