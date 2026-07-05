@@ -1,0 +1,49 @@
+@startuml
+
+package "app" {
+    class EditorTexto {
+        +main(args : String[]) : void
+    }
+}
+
+package "editor" {
+    class EditorTextoSimples {
+        -texto : String
+        -posicaoCursor : int
+
+        +escrever(novoTexto : String) : void
+        +salvar() : Memento
+        +restaurar(memento : Memento) : void
+        +getTexto() : String
+        +getPosicaoCursor() : int
+    }
+}
+
+package "historico" {
+    class Historico {
+        -historico : Deque<Memento>
+
+        +adicionar(memento : Memento) : void
+        +desfazer() : Memento
+        +estaVazio() : boolean
+    }
+}
+
+package "memento" {
+    class Memento {
+        -texto : String
+        -posicaoCursor : int
+
+        +Memento(texto : String, posicaoCursor : int)
+        +getTexto() : String
+        +getPosicaoCursor() : int
+    }
+}
+
+EditorTexto --> EditorTextoSimples : utiliza
+EditorTexto --> Historico : utiliza
+
+EditorTextoSimples --> Memento : cria/restaura
+Historico "1" *-- "*" Memento : armazena
+
+@enduml
