@@ -1,6 +1,6 @@
 # I. Seminario SI405 - Padrao de Projeto Memento
 
-Este repositorio contem a implementacao pratica para o seminario da disciplina de Analise e Projeto de Sistemas (SI405). O objetivo e apresentar o padrao comportamental Memento atraves de um cenario de Editor de Texto com funcionalidade de Desfazer (Ctrl+Z).
+Este repositorio contem a implementacao pratica para o seminario da disciplina de Analise de Sistemas (SI405). O objetivo e apresentar o padrao comportamental Memento atraves de um cenario de Editor de Texto com funcionalidade de Desfazer (Ctrl+Z).
 
 ## II. Estrutura do Projeto
 
