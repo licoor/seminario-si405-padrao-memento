@@ -18,7 +18,6 @@ class EditorTextoSimples {
         this.posicaoCursor = 0;
     }
 
-    // Método corrigido para "escrever" para bater com o main
     public void escrever(String novoTexto) {
         this.texto += novoTexto;
         this.posicaoCursor = this.texto.length();
