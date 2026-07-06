@@ -88,7 +88,7 @@ public class EditorTexto {
         Historico historico = new Historico();
 
         // Fluxo normal funcionando com as suas frases personalizadas!
-        editor.escrever("Olá bocós! ");
+        editor.escrever("Olá pessoas! ");
         historico.salvar(editor); 
         editor.mostrarEstadoAtual();
 
