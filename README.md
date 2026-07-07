@@ -2,15 +2,13 @@
 
 Este repositorio contem a implementacao pratica para o seminario da disciplina de Analise de Sistemas (SI405). O objetivo e apresentar o padrao comportamental Memento atraves de um cenario de Editor de Texto com funcionalidade de Desfazer (Ctrl+Z).
 
-## II. Estrutura do Projeto
+## II. Integrantes
 
-* **codigo-antes/**: Contem a situacao-problema inicial desenvolvida por licoor (eu). Demonstra um Editor de Texto que tenta implementar o historico violando o encapsulamento e gerando alto acoplamento.
-* **codigo-depois/**: Espaco reservado para a refatoracao com a aplicacao do padrao Memento (Mel).
-* **documentacao/**: Espaco reservado para os relatorios em PDF e roteiros (Bia e Dezza).
+* Andrezza Helen Batista Da Silva - 259085
+* Beatriz Cristina de Oliveira Jatobá - 240421
+* Dandara Melissa Alves - 274081
+* Lilia Cordeiro França - 197102
 
-## III. Status do Desenvolvimento
-- [x] Criacao do repositorio e infraestrutura (Lili)
-- [x] Implementacao do codigo com a situacao-problema (Lili)
-- [ ] Refatoracao e aplicacao do padrao Memento (Mel)
-- [ ] Elaboracao do relatorio tecnico e PDF de 2 paginas (Bia)
-- [ ] Validacao dos pros/contras e fechamento do roteiro (Dezza)
+## III. Vídeo do Seminário
+https://youtu.be/0YJgCYNr3Z0?feature=shared
+
